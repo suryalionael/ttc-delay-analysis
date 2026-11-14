@@ -66,9 +66,12 @@ Metadata last modified: 2026-10-29. The City publishes yearly XLSX files for
 - `ttc-streetcar-delay-data-readme` (XLSX)
 
 The 2022 files are much smaller than neighbouring years (subway 293 KB vs
-1.2 MB in 2023; bus 843 KB vs 3.4 MB). Treat 2022 as a partial or
-differently-reported year and check monthly counts before using it in trend
-claims.
+1.2 MB in 2023; bus 843 KB vs 3.4 MB). The initial concern was a partial
+year. A post-ingestion check found 12 months and row counts comparable to
+2021 and 2023 for every mode (bus 58,179 in 2022 vs 41,999 in 2021 and 55,900
+in 2023; streetcar 17,561 vs 14,509 and 14,381; subway 19,878 vs 16,344 and
+22,943). The small file size is compression, not missing months, so 2022 was
+not excluded.
 
 ## Schema differences
 

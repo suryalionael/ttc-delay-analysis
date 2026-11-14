@@ -30,3 +30,6 @@ Thumbs.db
 
 # Logs
 *.log
+
+# Generated model objects (large, reproducible)
+outputs/models/*.rds
