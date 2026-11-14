@@ -21,13 +21,13 @@ logistic_auc,0.756139577652516
 logistic_auc_low,0.753088844984767
 logistic_auc_high,0.759190310320266
 observed_holdout_major_rate,0.280554888782205
-mean_predicted_holdout,0.242336252724752
+mean_predicted_holdout,0.242336252724788
 nb_covid_rate_ratio,0.790618422678112
 nb_year_rate_ratio,1.0051074866728
 nb_theta,9.56138420035169
 poisson_dispersion,10.087546105948
-plant_or,2.17225138948185
-subway_or,0.0463149779499053
-hour3_or,1.70748577723325
+plant_or,2.17225138948123
+subway_or,0.0463149779498864
+hour3_or,1.70748577723323
 sentinel_999_count,1233
 sentinel_999_pct,0.1

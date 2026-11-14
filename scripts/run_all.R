@@ -23,9 +23,13 @@ steps <- c(
   "R/08_findings.R"
 )
 
+rscript <- file.path(R.home("bin"), "Rscript")
 for (step in steps) {
   message("\n=== ", step, " ===")
-  source(step, local = new.env())
+  status <- system2(rscript, step)
+  if (!identical(status, 0L)) {
+    stop("Step failed: ", step, call. = FALSE)
+  }
 }
 
 message("\n=== tests ===")
